@@ -24,7 +24,9 @@ $ sudo make install
 
 The libsqliteQt.so.1.0.0 and its symbolic links, libsqliteQt.so.1.0, libsqliteQt.so.1 and libsqliteQt.so, will be copied to /usr/lib. You can pass PROFILE="new path" to qmake command to change this default path. To use the library, copy all the *.h files to /usr/include or /usr/local/include, or wherever path you want (since you provide this path in your project file, through INCLUDEPATH). To link your project to the .so library, uses the follow:
 
-```-L/library path -lsqliteQt```
+```
+-L"/library_path" -lsqliteQt
+```
 
 My code is licensed in LGPL v3 so you can use it either in open source or closed source applications since it concerns with the terms of this license. If you are using my code into your project and finds it useful, do not forget to mention my name in the credits, and if it is worthy, donation can be accepted.
 
