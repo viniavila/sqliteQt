@@ -1,0 +1,12 @@
+#ifndef SQLITEQT_GLOBAL_H
+#define SQLITEQT_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(SQLITEQT_LIBRARY)
+#  define SQLITEQTSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define SQLITEQTSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // SQLITEQT_GLOBAL_H
