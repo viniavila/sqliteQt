@@ -24,6 +24,9 @@ HEADERS +=\
     qtablesqlite.h \
     qtreesqlite.h
 
+OTHER_FILES += \
+    README.md
+
 unix {
     target.path = /usr/lib
     INSTALLS += target
