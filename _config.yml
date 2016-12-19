@@ -1,1 +1,4 @@
+title: SQLite Qt
+description: Classes for easy SQLite manipulation
 theme: jekyll-theme-modernist
+show_downloads: true
